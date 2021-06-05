@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>operator</title>
+</head>
+<body>
+	<p id="tambah"></p>
+	<p id="kurang"></p>
+    <p id="kali"></p>
+    <p id="bagi"></p>
+    <p>---------------------</p>
+    <p id="asig_tambah"></p>
+    <p id="asig_kurang"></p>
+    <p id="asig_kali"></p>
+    <p id="asig_bagi"></p>
+    <script type="text/javascript">
+    	var a  = 20;
+    	var b  = 2;
+
+    	document.getElementById('tambah').innerHTML = a + b;
+    	document.getElementById('kurang').innerHTML = a - b;
+    	document.getElementById('kali').innerHTML = a * b;
+    	document.getElementById('bagi').innerHTML = a / b;
+         
+
+    	asig_tambah = a =+ b;
+        document.getElementById('asig_tambah').innerHTML = asig_tambah;
+        asig_kurang = a =- b;
+    	document.getElementById('asig_tambah').innerHTML = asig_kurang;
+        asig_kali = a =* b;
+    	document.getElementById('asig_tambah').innerHTML = asig_kali;
+        asig_kali= a /= b;
+    	document.getElementById('asig_tambah').innerHTML = asig_bagi;
+
+
+    </script>
+</body>
+</html>
