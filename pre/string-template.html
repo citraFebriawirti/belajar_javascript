@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>string template</title>
+</head>
+<body>
+<script type="text/javascript">
+	// gunakan bactik
+	const name = " Citra Febriawirti";
+	const template = `Name :  ${name}`;
+
+	console.info(template);
+
+	/* menambah string, pada string template ini lebih mudah pada varible*/
+
+    const value = 90;
+	const template2 = `name : ${name}, lulus : ${value > 75}`;
+
+	console.info(template2);
+
+	/* multiline adalah pengggunaan bactik secara simple, akan lebih mudah*/
+
+	const multiline = ` 
+	Citra Febriawirti,
+	jurusan sistem informasi,
+	stmik indonesia padang `;
+
+	document.writeln("<pre>");
+	document.writeln(multiline);
+	document.writeln("</pre>");
+
+</script>
+</body>
+</html>
