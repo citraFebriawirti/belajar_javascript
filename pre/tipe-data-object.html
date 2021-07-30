@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>tipe data object</title>
+</head>
+<body>
+<script type="text/javascript">
+	// disebut dengan attributes atau propertis bukan index
+	// biasanya pada string
+
+	const orang = {
+		"nama lengkap"  : "citra febriawirti",
+		panggilan : "citra",
+	    alamat : " padang",
+	    umur : 19};
+
+	// menambah atau mengubah
+	orang["jurusan"] = "sistem informasi";
+	
+
+	//menghapus
+	delete orang["alamat"];
+
+	console.info(orang);
+	console.table(orang);
+
+	console.info(`nama :${orang ["nama lengkap"]}`);
+	console.info(`nama :${orang.panggilan}`);
+	console.info(`alamat :${orang.alamat}`);
+	console.info(`umur :${orang.umur}`);
+</script>
+
+</body>
+</html>

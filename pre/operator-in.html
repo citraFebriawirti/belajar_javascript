@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>operator in</title>
+</head>
+<body>
+<script type="text/javascript">
+
+	// in operator hanya akan mengecek apakah sebuah property atau index ada atau tidak
+	// walaupun nilai propertynya undefined atau null, maka akan tetap ada 
+	const orang ={
+		namaAwal : "Citra",
+		namaAkhir : "Febriawirti"
+	};
+
+	if ("namaAwal" in orang){
+		alert (`hello ${orang.namaAwal}`);
+	} else {
+		alert ("hello saja");
+	}
+</script>
+</body>
+</html>

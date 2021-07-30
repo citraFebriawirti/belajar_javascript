@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>tipe data array</title>
+</head>
+<body>
+<script type="text/javascript">
+	// boleh menggunakan tipe data apa saja
+	/* menambahkan array adalah dengan push*/
+	const names = [];
+    names.push("Citra");
+	names.push("hai","hello");
+	names.push("sistem informasi","sistem analyst");
+
+	console.table(names);
+
+	/* array.push(value)-> menambah data ke array
+	array.lenght -> untuk mendapatkan panjang array
+	array[index] -> mendapatkan data di posisi index
+	array[index]= value -> mengubah data di posisi index
+	delete array[index]-> mengahpus data di posisi index, namun index tidak bergeser */
+    
+    names[0]="budi";
+
+    console.table(names);
+    console.info(names.lenght);
+
+    names[1]="javascript";
+    console.table(names);
+
+    delete names[0];
+    console.table(names);
+
+    names[4];
+    console.table(names);
+    
+    names[2]=1;
+    console.table(names);
+
+    // array dalam array
+    names.push([2,3,5]);
+    console.table(names);
+
+</script>
+
+</body>
+</html>

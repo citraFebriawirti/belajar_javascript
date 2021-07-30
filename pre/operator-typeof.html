@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>operator typeof</title>
+</head>
+<body>
+<script type="text/javascript">
+	/* typeof merupakan operator bisa kita gunakan untuk melihat tipe data sebuah velue atau varible
+
+	 hasil dari operator typeof string datanya
+
+	type          hasil operator
+	 undefined -> "undefined"
+	 Null      -> "object"
+	 Boolean   -> "boolean"
+	 Number    -> "number"
+	 Bitlnt    -> "bigint"
+	 string    -> "string"
+	 symbol    -> "symbol"
+	 Function  -> "function"
+	 lainnya   -> "object"
+	 */
+
+	 let data = 100;
+
+	 if (typeof data === "number"){
+	 	alert ("Number");
+	 } else if (typeof data === "string"){
+	 	alert("string");
+	 } else if (typeof data === "boolean"){
+	 	alert("boolean");
+	 }else if (typeof data === "object"){
+	 	alert("object");
+	 }
+
+	 document.writeln(`${data}`);
+
+</script>
+
+</body>
+</html>
