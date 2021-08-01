@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>for in</title>
+</head>
+<body>
+<script type="text/javascript">
+	/* for ini merupakan perulangan for yang digunakan untuk mengiterasi seluruh data property di object atau index di array 
+    jarang digunakan pada array
+	*/
+
+	const nama ={
+		namaAwal : "Citra",
+		namaAkhir: "Febriawirti"
+	};
+
+	for(const property in nama){
+		document.writeln(`<p> Property ${property} : ${nama[property]}</p>`)
+	}
+
+
+	const names = ["Citra","Febriawirti"];
+	for(const index in names){
+		document.writeln(`<p> ${index} : ${names[index]}</p>`);
+	}
+</script>
+
+</body>
+</html>

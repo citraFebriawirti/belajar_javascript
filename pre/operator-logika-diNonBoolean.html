@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>operator logika di Non Boolean</title>
+</head>
+<body>
+<script type="text/javascript">
+	console.info("hello" || '');// hello
+	console.info("" || []);// 0
+	console.info("0" || "NOL");// 0
+	console.info(0 || "NOL");// NOL
+	console.info(null || "NULL");//NULL
+	console.info(undefined || "UNDEFINED");// UNDEFINED
+
+	console.info("hello" && '');// ''
+	console.info("" && []);// ""
+	console.info("0" && "NOL");// NOL
+	console.info(0 && "NOL");// 0
+	console.info(null && "NULL");//null
+	console.info(undefined && "UNDEFINED");// undefined
+</script>
+
+</body>
+</html>

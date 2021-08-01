@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>operator ternary</title>
+</head>
+<body>
+<script type="text/javascript">
+	/* operator ternary adalah melibatkan 3 operand, utk pemilihan terhadap nilai tertentu, yang didasarkan atas ekspesi tertentu 
+	 Terdiri dari kondisi yang dievaluasi, jika menghasilkan true maka nilai pertama diambil, jika false nilai kedua yang diambil */
+
+	 // tanpa ternary operator
+
+	const nilai = 90;
+	let ucapan ;
+
+	if (nilai >= 75){
+		ucapan = "selamat anda lulus"
+	} else {
+		ucapan = "silahkan coba lagi"
+	}
+
+	document.writeln(`${ucapan}`);
+
+	// operator ternary
+	// (?)
+
+	ucapan = nilai >= 75 ? "selamat anda lulus" : "silahkan coba lagi";
+   
+   document.writeln(`<p>${ucapan}</p>`);
+   
+   const harga = 60;
+   const untung = harga >= 65 ? "selamat anda untung" : "biasa saja" ;
+
+   document.writeln(`<p>${untung}</p>`);
+
+</script>
+
+</body>
+</html>

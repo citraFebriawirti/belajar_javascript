@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>optional chaining</title>
+</head>
+<body>
+<script type="text/javascript">
+	/* optional chaining operator (?) merupakan operator digunakan utk mengamankan ketika ingin mengakses property sebuah object dari data nullish */
+
+	// error
+
+	const orang = {};
+
+	const country = orang.address.country;
+
+	document.writeln(`${country}`);
+
+	// optional
+
+	let person ={};
+	let country = person ?. address?.country;
+
+	document.writeln("sukses");
+
+
+</script>
+
+</body>
+</html>

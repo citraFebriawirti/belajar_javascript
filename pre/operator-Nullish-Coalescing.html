@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Nullish Coalescing Operator</title>
+</head>
+<body>
+<script type="text/javascript">
+	// (??)
+	// nullist berisi null dan undifined
+	// operator mirip dengan ternary operator, yang membedakan adalah pada kondisi, jika bernilai null atau undifined
+
+	// tanpa
+
+	let parameter;
+
+	let data = parameter;
+	if (data == undefined || data == null){
+		data = "nilai default";
+	}
+
+	alert(data);
+    
+    // pakai 
+    let namaS;
+	let nama = nama?? "nilai default";
+
+	alert(nama);
+</script>
+
+</body>
+</html>
