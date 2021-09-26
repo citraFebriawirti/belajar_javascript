@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MiniSet</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+</head>
+
+<body>
+    <section>
+        <!-- Start Navigation  -->
+        <nav class="navbar">
+            <div class="max-width">
+                <div class="logo"><a href="#">Sem<span>Site.</span></a></div>
+                <ul class="menu">
+                    <li><a href="contact.html" class="menu-btn">Contact</a></li>
+                    <li><a href="transaksi.html" class="menu-btn">Transaksi</a></li>
+                    <li><a href="product.html" class="menu-btn">Product</a></li>
+                    <li><a href="index.html" class="menu-btn">Home</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- End Navigation  -->
+        <!-- Start Transaksi -->
+        <form name="form">
+            <table>
+                <tr>
+                    <th>Name Product</th>
+                    <th>Total Product</th>
+                </tr>
+                <tr>
+                    <td>
+                        <label><input type="checkbox" class="oil1"/></label>Minyak Bimoli
+                    </td>
+                    <td><input type="text" class="jumlahBeliOil1" /></td>
+                </tr>
+                <tr>
+                    <td>
+                        <label><input type="checkbox" class="oil2" /> </label>Minyak Sari Murni
+                    </td>
+                    <td><input type="text" class="jumlahBeliOil2" /></td>
+                </tr>
+                <tr>
+                    <td>
+                        <label> <input type="checkbox" class="oil3" /> </label>Minyak SunCo
+                    </td>
+                    <td><input type="text" class="jumlahBeliOil3" /></td>
+                </tr>
+                <tr>
+                    <td>
+                        <label><input type="checkbox" class="oil4"/></label>Minyak Tropical
+                    </td>
+                    <td><input type="text" class="jumlahBeliOil4" /></td>
+                </tr>
+                <tr>
+                    <td>
+                        <label> <input type="checkbox" class="milk1" /> </label>Susu Almond
+                    </td>
+                    <td><input type="text" class="jumlahBeliMilk1" /></td>
+                </tr>
+                <tr>
+                    <td>
+                        <label><input type="checkbox" class="milk2"/></label>Susu Frisian Flag
+                    </td>
+                    <td><input type="text" class="jumlahBeliMilk2" /></td>
+                </tr>
+                <tr>
+                    <td>
+                        <label><input type="checkbox" class="milk3"/></label>Susu Purefarm
+                    </td>
+                    <td><input type="text" class="jumlahBeliMilk3" /></td>
+                </tr>
+                <tr>
+                    <td>
+                        <label><input type="checkbox" class="milk4"/></label>Susu Milo
+                    </td>
+                    <td><input type="text" class="jumlahBeliMilk4" /></td>
+                </tr>
+                <tr>
+                    <td>
+                        <label><input type="checkbox" class="syrup1"/></label>Sirup Freis
+                    </td>
+                    <td><input type="text" class="jumlahBeliSyrup1" /></td>
+                </tr>
+                <tr>
+                    <td>
+                        <label><input type="checkbox" class="syrup2"/></label>Sirup Denali
+                    </td>
+                    <td><input type="text" class="jumlahBeliSyrup2" /></td>
+                </tr>
+                <tr>
+                    <td>
+                        <label> <input type="checkbox" class="syrup3"/></label>Sirup Marjan
+                    </td>
+                    <td><input type="text" class="jumlahBeliSyrup3" /></td>
+                </tr>
+                <tr>
+                    <td>
+                        <label><input type="checkbox" class="syrup4"/></label>Sirup ABC
+                    </td>
+                    <td><input type="text" class="jumlahBeliSyrup4" /></td>
+                </tr>
+                <tr>
+                    <td>
+                        <label><input type="checkbox" class="noodle1"/></label>Mie Lemonilo
+                    </td>
+                    <td><input type="text" class="jumlahBeliNoodle1" /></td>
+                </tr>
+                <tr>
+                    <td>
+                        <label><input type="checkbox" class="noodle2" /></label>Mie Indomie
+                    </td>
+                    <td><input type="text" class="jumlahBeliNoodle2" /></td>
+                </tr>
+                <tr>
+                    <td>
+                        <label> <input type="checkbox" class="noodle3" /> </label>Mie Samyang
+                    </td>
+                    <td><input type="text" class="jumlahBeliNoodle3" /></td>
+                </tr>
+                <tr>
+                    <td>
+                        <label><input type="checkbox" class="noodle4"/></label>Mie Sarimi
+                    </td>
+                    <td><input type="text" class="jumlahBeliNoodle4" /></td>
+                </tr>
+                <tr>
+                    <td>
+                        <label> TOTAL HARGA </label>
+                    </td>
+                    <td><input type="text" id="total" /></td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="Proses" /></td>
+                    <td><input type="reset" value="Reset" /></td>
+                </tr>
+            </table>
+        </form>
+        <!-- End Transaksi-->
+</body>
+<script src="script.js"></script>
+
+</html>
